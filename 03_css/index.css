@@ -1,0 +1,11 @@
+p{
+    background-color: aqua;
+}
+
+.minha_classe{
+    background-color: rgb(221, 0, 255);
+}
+
+#meu_id{
+    background-color: chartreuse;
+}
