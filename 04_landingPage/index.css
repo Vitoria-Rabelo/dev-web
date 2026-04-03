@@ -22,6 +22,16 @@ p {
     margin-bottom: 15px;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;    
+    gap: 10px;            
+    background-color: #650000;
+    color: white;
+    padding: 30px;
+}
+
 #topo-site{
     display: flex;
     flex-direction: column;
@@ -35,6 +45,15 @@ p {
 background-color: lightcyan;
 }
 
+#conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
 #titulo-principal {
     margin-top: 40px;
     font-size: 2.5rem;
@@ -43,6 +62,36 @@ background-color: lightcyan;
 
 #titulo-secundario {
     font-size: 1.5rem;
+}
+
+#table {
+    width: 50%;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#table thead {
+    background-color: rgb(255, 238, 111);
+}
+
+#table th {
+    padding: 12px 15px;
+}
+
+#table td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+#table tfoot td {
+    padding: 10px;
+    font-style: italic;
+    font-size: 0.85rem;
+    color: #666;
+    text-align: center;
+    background-color: #eee;
 }
 
 .menu ul {
@@ -55,12 +104,8 @@ background-color: lightcyan;
 
 }
 
-footer {
+.imagem {
     display: flex;
-    flex-direction: column;  
-    align-items: center;    
-    gap: 10px;            
-    background-color: #650000;
-    color: white;
-    padding: 30px;
+    flex-direction: row;
 }
+
