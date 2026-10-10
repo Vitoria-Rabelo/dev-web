@@ -1,4 +1,3 @@
-"use strict";
 let contador = 0;
 document.addEventListener("click", async (event) => {
     contador++;
@@ -9,15 +8,16 @@ document.addEventListener("click", async (event) => {
         imagem.setAttribute("src", resp_json.sprites.front_default);
         let borda;
         if (contador % 2 == 0) {
-            borda = "red";
+            borda = "blue";
         }
         else {
-            borda = "black";
+            borda = "red";
         }
-        imagem.setAttribute("style", `border: 3px solid ${borda}; margin: 5px;`);
+        imagem.setAttribute("style", `border: 2px solid ${borda}; margin: 5px;`);
         document.body.appendChild(imagem);
     }
     catch (error) {
         console.log("Erro: não encontramos seu pokémon!");
     }
 });
+export {};

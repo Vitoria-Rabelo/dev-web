@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: frutas-api-vitoria
+    runtime: docker
+    plan: free
+    rootDir: 13_cloud_run
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: MONGODB_URI
+        sync: false

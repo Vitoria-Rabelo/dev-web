@@ -1,3 +1,4 @@
+export {} // Use para variaveis serem usadas em outros arquivos
 interface DadosPokemon {
     sprites: {
         front_default: string;
@@ -17,12 +18,12 @@ document.addEventListener("click", async (event: MouseEvent) => {
         let borda: string;
 
         if (contador % 2 == 0){
-            borda = "red";
+            borda = "blue";
         } else {
-            borda = "black";
+            borda = "red";
         }
 
-        imagem.setAttribute("style", `border: 3px solid ${borda}; margin: 5px;`);
+        imagem.setAttribute("style", `border: 2px solid ${borda}; margin: 5px;`);
         document.body.appendChild(imagem)
     } catch(error) {
         console.log("Erro: não encontramos seu pokémon!")

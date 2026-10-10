@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #020202;
+}
+
+.meu-formulario {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.meu-formulario input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+
+.meu-formulario button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.meu-formulario button:hover {
+  background-color: #0056b3;
+}
+
+.area-calendario {
+  height: 600px;
+  width: 100%;
+}

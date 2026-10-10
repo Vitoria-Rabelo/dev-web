@@ -1,7 +1,7 @@
 {
   "name": "08_pokemon_web2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Instale typescript:     npm install typescript",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,0 +1,9 @@
+.pokemonCard{
+    border: 3px solid black;
+    color: blue;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
